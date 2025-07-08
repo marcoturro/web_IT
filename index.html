@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marco Turrini | Engineering Research</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #e0e0e0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #1a1a1a;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #aaa;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bfff;
+    }
+    header {
+      padding: 120px 20px 60px;
+      text-align: center;
+      background-color: #181818;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+      color: #ccc;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 1em;
+    }
+    .links a {
+      color: #00bfff;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+    .links a:hover {
+      opacity: 0.7;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: #00bfff;
+    }
+    section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #666;
+      background-color: #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#introduction">Intro</a>
+    <a href="#wind-modeling">Wind Modeling</a>
+    <a href="#lidar">Lidar</a>
+    <a href="#ml">ML</a>
+    <a href="#ecology">Ecology</a>
+    <a href="#energy-systems">Systems</a>
+  </nav>
+
+  <header id="introduction">
+    <h1>Marco Turrini</h1>
+    <p>Engineer & Researcher | Wind Energy · Fluid Mechanics · Environmental Systems</p>
+    <div class="links">
+      <a href="mailto:.com">Email</a>
+      <a href="https://www.linkedin.com/in/marcoturrini" target="_blank">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Marco-Turrini" target="_blank">ResearchGate</a>
+    </div>
+  </header>
+
+  <section id="wind-modeling">
+    <h2>Atmospheric & Wake Flow Modeling</h2>
+    <p>
+      I work on improving our understanding of wind behavior in and around wind farms, especially focusing on wake dynamics, turbulence, and mesoscale coupling. This includes work with CFD, LES, and mesoscale models like WRF to reduce uncertainty in long-term wind predictions and turbine interactions.
+    </p>
+  </section>
+
+  <section id="lidar">
+    <h2>Lidar Measurements & Smart Scanning</h2>
+    <p>
+      I develop strategies for adaptive Lidar scanning and compare measured wind fields to virtual reconstructions using Gaussian Processes. These methods aim to capture critical phenomena such as gusts, low-level jets, and shear layers with higher resolution and relevance for wind farm operation and research.
+    </p>
+  </section>
+
+  <section id="ml">
+    <h2>Machine Learning for Wind Forecasting</h2>
+    <p>
+      I'm exploring data-driven models to enhance wind resource assessment, flow reconstruction, and uncertainty quantification. By integrating ML with physical models, I aim to build hybrid solutions that are both accurate and interpretable.
+    </p>
+  </section>
+
+  <section id="ecology">
+    <h2>Ecological Impact & Coexistence</h2>
+    <p>
+      I investigate the interaction between renewable energy systems and ecosystems, including bird deterrence strategies, wildlife monitoring, and policy-driven approaches for mitigation. This ties into a broader effort to design environmentally responsible wind projects.
+    </p>
+  </section>
+
+  <section id="energy-systems">
+    <h2>Hybrid Energy Systems & Optimization</h2>
+    <p>
+      My work also touches on energy management systems for hybrid plants combining wind, solar, and storage. I study operational optimization, market participation, and control strategies that enable more resilient and intelligent energy infrastructures.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Marco Turrini · All rights reserved.
+  </footer>
+
+</body>
+</html>
